@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Dec 19 23:38:53 2022
+This project is for the practice of the user input. The following game
+allows both computer and user to guess a random game by using loop and
+user input of Python. Users will win if they guess the number correctly
+and get notified by the range if the number they guess is too high or
+too low.
 
 Author: Xiaoyang Wei
 Project Name: Number Guess
@@ -80,10 +84,5 @@ def number_of_guesses(x):
             print(guess)
         guesses_num += 1
     return guesses_num
-    
-# def orginal_guess(x):
-    # input a random guess number "RANDOM_NUMBER" in range(1, x)
-    # 
-    
 
 print(number_of_guesses(1000))
