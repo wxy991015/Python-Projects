@@ -12,7 +12,9 @@ Project Name: Number Guess
 Date: December 19th, 2022
 """
 
+from mimetypes import guess_all_extensions
 import random
+from typing import Union
 
 def user_guess(x):
     random_number = random.randint(1, x)
@@ -26,7 +28,7 @@ def user_guess(x):
     
     print(f"Yah, congrats. You have guessed the number {random_number} correctly!")
 
-def computer_guess(x):
+def computer_guess(x: int):
     low = 1
     high = x
     feedback = ""
@@ -41,7 +43,7 @@ def computer_guess(x):
         elif feedback == "l":
             low = guess + 1
     
-    print(f"Yah, congrats! The computer guesses the number {guess} correctly!")
+    print(f"Yah, congrats! The computer guesses the number {guess_all_extensions} correctly!")
 
 def random_guess(x, euqal): # make two numbers equal to EQUAL
     # input a random guess nunber "FIRST" in range(1, x)
