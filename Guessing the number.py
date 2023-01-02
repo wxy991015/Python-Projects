@@ -3,7 +3,9 @@
 """
 Created on Mon Dec 19 23:38:53 2022
 
-@author: xiaoyangwei
+Author: Xiaoyang Wei
+Project Name: Number Guess
+Date: December 19th, 2022
 """
 
 import random
