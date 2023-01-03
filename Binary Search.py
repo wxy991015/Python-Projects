@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Dec 21 15:43:12 2022
+This Project 
 
-@author: xiaoyangwei
+Author: Xiaoyang Wei
+Project Name: Binary Search
+Date Created: December 21, 2022
 """
 
 import random
